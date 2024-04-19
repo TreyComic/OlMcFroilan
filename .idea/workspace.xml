@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3452b80a-d1cf-401a-8aa4-ded9016f32c1" name="Changes" comment="Edit">
-      <change beforePath="$PROJECT_DIR$/RealReal.drawio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/farmer.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/farmer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +46,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chich\Desktop\DummyProject\OlMcFroilan\assets" />
       <recent name="C:\Users\chich\Desktop\DummyProject\OlMcFroilan" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -86,7 +86,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713546835602</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Edit">
+      <option name="closed" value="true" />
+      <created>1713546891074</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713546891074</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
