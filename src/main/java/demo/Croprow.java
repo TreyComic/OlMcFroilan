@@ -1,6 +1,6 @@
 package demo;
 
-public class Croprow implements Produce
+public class Croprow
 {
     Crop[] crops;
 }
