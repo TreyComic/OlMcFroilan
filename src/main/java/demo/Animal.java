@@ -1,6 +1,6 @@
 package demo;
 
-abstract class Animal implements Noisemaker, Eater
+abstract class Animal implements NoiseMaker,Eater
 {
 
 }

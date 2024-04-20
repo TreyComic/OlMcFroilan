@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3452b80a-d1cf-401a-8aa4-ded9016f32c1" name="Changes" comment="Edit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3452b80a-d1cf-401a-8aa4-ded9016f32c1" name="Changes" comment="undid one oopsie.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/NoiseMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/NoiseMaker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +34,17 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Jacob",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/chich/Desktop/DummyProject/OlMcFroilan/assets"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Jacob&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/chich/Desktop/DummyProject/OlMcFroilan/assets&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\chich\Desktop\DummyProject\OlMcFroilan\assets" />
@@ -94,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713546891074</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="undid one oopsie.">
+      <option name="closed" value="true" />
+      <created>1713646374694</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713646374695</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added uml to readme" />
     <MESSAGE value="Edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit" />
+    <MESSAGE value="undid one oopsie." />
+    <option name="LAST_COMMIT_MESSAGE" value="undid one oopsie." />
   </component>
 </project>
