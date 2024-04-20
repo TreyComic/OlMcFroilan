@@ -1,6 +1,6 @@
 package main.java.demo;
 
-public interface FarmVehicle {
+public interface FarmVehicle extends Vehicle {
 
-    public void harvest(Crop);
+    public void harvest(Crop crop);
 }
