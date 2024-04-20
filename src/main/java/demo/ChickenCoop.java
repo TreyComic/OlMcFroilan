@@ -3,7 +3,7 @@ package demo;
 public class ChickenCoop
 {
     Chicken[] inhabitants;
-    public FarmHouse(int capacity)
+    public ChickenCoop(int capacity)
     {
         inhabitants = new Chicken[capacity];
     }
