@@ -1,6 +1,6 @@
-package main.java.demo;
+package demo;
 
-public interface Aircraft extends Vehicle{
-
+public interface Aircraft extends Vehicle
+{
     public void fly();
 }

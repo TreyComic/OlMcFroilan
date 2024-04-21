@@ -20,26 +20,19 @@ public class Chicken extends Animal implements Produce
     }
     public Edible yield()
     {
-        if isFertilized==true
+        if (!isFertilized)
         {
-            return new Egg;
+            return new EdibleEgg();
         }
         else
         {
             return null;
         }
     }
-
-    @Override
-    public void eat(Edible edible)
-    {
-
-    }
-
     @Override
     public void makeNoise()
     {
-
+        System.out.println("the chicken screeches.");
     }
 }
 
