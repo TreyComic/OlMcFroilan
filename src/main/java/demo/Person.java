@@ -5,12 +5,10 @@ public abstract class Person implements NoiseMaker,Eater,Rider
     private String name;
     private Rideable riddenObject;
 
-    protected Person(String name)
+    public Person(String name)
     {
         this.name = name;
     }
-
-
     public void mount(Rideable riddenObject)
     {
         this.riddenObject=riddenObject;
