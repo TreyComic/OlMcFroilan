@@ -1,7 +1,7 @@
 package demo;
 
-public class TomatoPlant extends Crop {
-
+public class TomatoPlant extends Crop
+{
     @Override
     public Edible yield() {
         if(this.isFertilized && !this.hasBeenHarvested){
@@ -10,5 +10,9 @@ public class TomatoPlant extends Crop {
         } else {
             return null;
         }
+    }
+    public String toString()
+    {
+        return "tomato plant";
     }
 }

@@ -13,5 +13,10 @@ public class CornStalk extends Crop{
         {
             return null;
         }
+
+    }
+    public String toString()
+    {
+        return "cornstalk";
     }
 }

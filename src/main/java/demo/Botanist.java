@@ -2,5 +2,5 @@ package demo;
 
 public interface Botanist
 {
-    public void plant(Crop plantCrop, Croprow rowCrop);
+    public void plant(Field field, String plantCrop, int cropRowNumbah);
 }

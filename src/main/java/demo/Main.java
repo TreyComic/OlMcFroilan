@@ -1,9 +1,10 @@
 package demo;
 
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Reshawn what are you doing?");
-      
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Cropduster croppy = new Cropduster();
+        System.out.println(croppy.getClass());
     }
-
 }

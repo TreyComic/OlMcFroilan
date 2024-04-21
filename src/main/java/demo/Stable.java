@@ -3,8 +3,16 @@ package demo;
 public class Stable
 {
     Horse[] horses;
-    public Stable(int horseCount)
+    public Horse[] getHorses()
     {
-        this.horses=new Horse[horseCount];
+        return horses;
+    }
+    public void setHorses(Horse[] horses)
+    {
+        this.horses = horses;
+    }
+    public Stable(int horseCapacity)
+    {
+        this.horses=new Horse[horseCapacity];
     }
 }
