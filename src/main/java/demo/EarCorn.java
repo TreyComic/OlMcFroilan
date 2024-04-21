@@ -1,5 +1,6 @@
 package demo;
 
-public class EarCorn implements Edible{
+public class EarCorn implements Edible
+{
 
 }

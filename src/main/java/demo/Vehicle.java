@@ -1,5 +1,6 @@
-package main.java.demo;
+package demo;
 
-public interface Vehicle {
+public interface Vehicle
+{
 
 }

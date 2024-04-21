@@ -2,11 +2,15 @@ package demo;
 
 public class CornStalk extends Crop{
     @Override
-    public Edible yield() {
-        if(this.isFertilized && this.hasBeenHarvested == false){
+    public Edible yield()
+    {
+        if(this.isFertilized && !this.hasBeenHarvested)
+        {
             this.setHasBeenHarvested(true);
             return new EarCorn();
-        } else {
+        }
+        else
+        {
             return null;
         }
     }

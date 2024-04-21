@@ -1,12 +1,10 @@
-package main.java.demo;
+package demo;
 
-public class Tractor implements FarmVehicle{
-    public Tractor() {
-    }
+public class Tractor implements FarmVehicle, Vehicle{
+
     @Override
-    public void harvest(Crop crop) {
-        System.out.println();
+    public void operate(Field field)
+    {
+
     }
-
-
 }
