@@ -2,26 +2,13 @@ package demo;
 
 public class Pilot extends Person
 {
-    @Override
-    public void eat(Edible edible)
+    public Pilot(String name)
     {
-
+        super(name);
     }
-
     @Override
-    public void makeNoise()
+    public void mount(Rideable riddenObject)
     {
-
-    }
-
-    @Override
-    public void mount()
-    {
-
-    }
-
-    @Override
-    public void disMount() {
-
+        super.mount(riddenObject);
     }
 }

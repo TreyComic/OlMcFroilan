@@ -7,4 +7,9 @@ public class Tractor implements FarmVehicle, Vehicle{
     {
 
     }
+    @Override
+    public void makeNoise()
+    {
+        System.out.println("The tractor screams");
+    }
 }

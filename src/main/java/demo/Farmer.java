@@ -2,19 +2,13 @@ package demo;
 
 public class Farmer extends Person implements Botanist
 {
-    @Override
-    public void plant(Crop plantCrop)
+    public Farmer(String name)
     {
-
+        super(name);
     }
     @Override
-    public void eat(Edible edible)
+    public void plant(Crop plantCrop, Croprow rowCrop)
     {
 
-    }
-    @Override
-    public void makeNoise()
-    {
-        System.out.println("")
     }
 }
