@@ -9,6 +9,6 @@ public class Pilot extends Person
     @Override
     public void mount(Rideable riddenObject)
     {
-        super.mount(riddenObject);
+        super.setMount(riddenObject);
     }
 }

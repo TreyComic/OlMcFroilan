@@ -11,9 +11,17 @@ public class Field
     {
         return rowCrops;
     }
+    public Croprow getRowCrops(int cropRow)
+    {
+        return rowCrops[cropRow];
+    }
 
     public void setRowCrops(Croprow[] rowCrops)
     {
         this.rowCrops = rowCrops;
+    }
+    public void setRowCrops(int cropRow, Croprow rowCrops)
+    {
+        this.rowCrops[cropRow] = rowCrops;
     }
 }

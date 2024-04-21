@@ -78,4 +78,8 @@ public class Farmer extends Person implements Botanist
     {
         this.favoriteTractor = favoriteTractor;
     }
+    public void mount()
+    {
+        mount(favoriteTractor);
+    }
 }

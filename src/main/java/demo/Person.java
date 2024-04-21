@@ -26,6 +26,12 @@ public class Person implements NoiseMaker,Eater,Rider
         else
             System.out.println(name+ " doesn't know how to fly an Aircraft!");
     }
+    protected void setMount(Rideable setMount)
+    {
+        this.riddenObject=setMount;
+        //This is protected because we don't want to be able to call this personally, we want to call it from the mount
+        //method on pilot so that we can set the riddenObject to a cropduster without going through the if statement on Mount.
+    }
     @Override
     public void dismount()
     {
