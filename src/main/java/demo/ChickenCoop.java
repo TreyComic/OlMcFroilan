@@ -6,7 +6,19 @@ public class ChickenCoop
     public ChickenCoop(int capacity)
     {
         chickens = new Chicken[capacity];
-        System.out.println("Coop constructed");
+        System.out.println("Coop with room for "+capacity+" chickens constructed");
+    }
+    public ChickenCoop(int chickenCapacity,int emptyCoopSpots)
+    {
+
+        System.out.println("Stable with room for "+chickenCapacity+" constructed, with "+emptyCoopSpots+" empty spots.");
+        this.chickens=new Chicken[chickenCapacity];
+        int filledStables=chickenCapacity-emptyCoopSpots;
+        for(int i=0;i<filledStables;i++)
+        {
+            Chicken currentChicken=chickens[i];
+            currentChicken=new Chicken();
+        }
     }
     public Chicken[] getChickens()
     {
@@ -16,9 +28,9 @@ public class ChickenCoop
     {
         chickens = replacements;
     }
-    public Chicken getChicken(int chickenLocation)
+    public Chicken getChicken(int chickenIndex)
     {
-        return chickens[chickenLocation];
+        return chickens[chickenIndex];
     }
     public void setHorse(Chicken chicken,int chickenLocation)
     {
@@ -44,5 +56,10 @@ public class ChickenCoop
             counter++;
         }
         System.out.println("Coop filled with "+counter+" chickens.");
+    }
+    public static void main(String[] args)
+    {
+        ChickenCoop chickens =new ChickenCoop(3,1);
+        System.out.println(chickens.getChicken(2));
     }
 }

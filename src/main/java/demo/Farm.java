@@ -42,14 +42,20 @@ public class Farm
         this.stables = new Stable[numberOfStables];
         this.coopsChicken = new ChickenCoop[numberOfChickenCoops];
         this.farmhouse = new FarmHouse(2);
+        int counter=0;
         for (int i = 0; i < stables.length; i++)
         {
             stables[i] = new Stable(stableCapacity);
+            counter=i;
         }
+        System.out.println("Constructed "+counter+" stables with a capacity of "+stableCapacity+" horses each.");
+        counter=0;
         for (int i = 0; i < coopsChicken.length; i++)
         {
             coopsChicken[i] = new ChickenCoop(coopCapacity);
+            counter=i;
         }
+        System.out.println("Constructed "+counter+" chicken coops with a capacity of "+coopCapacity+" chickens each.");
     }
     public ChickenCoop[] getCoopsChicken()
     {

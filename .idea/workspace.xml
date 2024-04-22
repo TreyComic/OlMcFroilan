@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3452b80a-d1cf-401a-8aa4-ded9016f32c1" name="Changes" comment="functions to fillStables and chickencoops.">
+    <list default="true" id="3452b80a-d1cf-401a-8aa4-ded9016f32c1" name="Changes" comment="Grammar baybee">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Chicken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/ChickenCoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/ChickenCoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/CornStalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/CornStalk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Croprow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Croprow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Farm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Farmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Farmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/PlotSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/PlotSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Pilot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Stable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Stable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,8 +67,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ChickenCoop.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PlotSetting.executor": "Run",
+    "Application.Stable.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -254,7 +255,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713812049645</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="get it outta here!">
+      <option name="closed" value="true" />
+      <created>1713814997005</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1713814997005</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Grammar baybee">
+      <option name="closed" value="true" />
+      <created>1713815084182</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1713815084182</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +297,8 @@
     <MESSAGE value="settergetter" />
     <MESSAGE value="Construction and planting" />
     <MESSAGE value="functions to fillStables and chickencoops." />
-    <option name="LAST_COMMIT_MESSAGE" value="functions to fillStables and chickencoops." />
+    <MESSAGE value="get it outta here!" />
+    <MESSAGE value="Grammar baybee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grammar baybee" />
   </component>
 </project>

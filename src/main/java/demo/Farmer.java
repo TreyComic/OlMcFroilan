@@ -7,7 +7,6 @@ public class Farmer extends Person implements Botanist
     {
         super(name);
         favoriteTractor=new Tractor();
-        System.out.println(name+" constructed");
     }
     @Override
     public void plant(Field field,String cropType, int cropRowNumbah)

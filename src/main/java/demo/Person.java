@@ -15,6 +15,7 @@ public class Person implements NoiseMaker,Eater,Rider
     public Person(String name)
     {
         this.name = name;
+        System.out.println(name+" constructed...");
     }
     @Override
     public void mount(Rideable riddenObject)
