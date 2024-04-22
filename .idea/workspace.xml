@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3452b80a-d1cf-401a-8aa4-ded9016f32c1" name="Changes" comment="Setters, getters, and a rough draft of the plant method">
+    <list default="true" id="3452b80a-d1cf-401a-8aa4-ded9016f32c1" name="Changes" comment="diddled with stuff related to pilots and flying.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Farmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Farmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Pilot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo/FarmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/FarmTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713739568304</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="diddled with stuff related to pilots and flying.">
+      <option name="closed" value="true" />
+      <created>1713743402236</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713743402236</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +220,7 @@
     <MESSAGE value="Simplified a code" />
     <MESSAGE value="Poosh" />
     <MESSAGE value="Setters, getters, and a rough draft of the plant method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setters, getters, and a rough draft of the plant method" />
+    <MESSAGE value="diddled with stuff related to pilots and flying." />
+    <option name="LAST_COMMIT_MESSAGE" value="diddled with stuff related to pilots and flying." />
   </component>
 </project>
