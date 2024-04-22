@@ -3,12 +3,23 @@ package demo;
 public class Croprow
 {
     Crop[] crops;
+    public Croprow(int cropRowLength)
+    {
+        crops=new Crop[cropRowLength];
+        System.out.println("Croprow of length "+cropRowLength+" contstructed");
+    }
+    public Croprow()
+    {
+        crops=new Crop[10];
+        System.out.println("No length given. Croprow of length 10 contstructed");
+    }
     public Crop[] getCrops()
     {
         return crops;
     }
-    public void setCrops(Crop[] crops)
+
+    public void setCrops(Crop[] workingRow)
     {
-        this.crops = crops;
+        crops=workingRow;
     }
 }

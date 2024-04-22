@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="3452b80a-d1cf-401a-8aa4-ded9016f32c1" name="Changes" comment="diddled with stuff related to pilots and flying.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Croprow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Croprow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Farm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/FarmHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/FarmHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Farmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Farmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Field.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Pilot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/PlotSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/PlotSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Stable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Stable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,22 +66,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Jacob&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/chich/Desktop/DummyProject/OlMcFroilan/assets&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.PlotSetting.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "Jacob",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/chich/Desktop/DummyProject/OlMcFroilan/assets",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="demo" />
@@ -198,7 +206,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713743402236</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="diddled with stuff related to pilots and flying.">
+      <option name="closed" value="true" />
+      <created>1713744295147</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713744295147</updated>
+    </task>
+    <task id="LOCAL-00013" summary="diddled with stuff related to pilots and flying.">
+      <option name="closed" value="true" />
+      <created>1713744301139</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713744301139</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
