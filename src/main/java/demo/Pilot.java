@@ -7,6 +7,7 @@ public class Pilot extends Person
     {
         super(name);
         personalPlane=new Cropduster();
+        System.out.println(name+" contstructed");
     }
     @Override
     public void mount(Rideable riddenObject)

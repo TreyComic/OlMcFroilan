@@ -10,12 +10,12 @@ public class Farm
     {
         this.field = new Field(5);
         this.stables=new Stable[3];
-        for (int i=0;i<=stables.length;i++)
+        for (int i=0;i<stables.length;i++)
         {
             stables[i]=new Stable(4);
         }
         this.coopsChicken= new ChickenCoop[4];
-        for (int i=0;i<=coopsChicken.length;i++)
+        for (int i=0;i<coopsChicken.length;i++)
         {
             coopsChicken[i]=new ChickenCoop(4);
         }
@@ -27,11 +27,11 @@ public class Farm
         this.stables= new Stable[numberOfStables];
         this.coopsChicken= new ChickenCoop[numberOfChickenCoops];
         this.farmhouse= new FarmHouse(2);
-        for (int i=0;i<=stables.length;i++)
+        for (int i=0;i<stables.length;i++)
         {
             stables[i]=new Stable(4);
         }
-        for (int i=0;i<=coopsChicken.length;i++)
+        for (int i=0;i<coopsChicken.length;i++)
         {
             coopsChicken[i]=new ChickenCoop(4);
         }
@@ -42,11 +42,11 @@ public class Farm
         this.stables = new Stable[numberOfStables];
         this.coopsChicken = new ChickenCoop[numberOfChickenCoops];
         this.farmhouse = new FarmHouse(2);
-        for (int i = 0; i <= stables.length; i++)
+        for (int i = 0; i < stables.length; i++)
         {
             stables[i] = new Stable(stableCapacity);
         }
-        for (int i = 0; i <= coopsChicken.length; i++)
+        for (int i = 0; i < coopsChicken.length; i++)
         {
             coopsChicken[i] = new ChickenCoop(coopCapacity);
         }
@@ -71,7 +71,6 @@ public class Farm
     {
         return field;
     }
-
     public void setField(Field field)
     {
         this.field = field;
@@ -84,4 +83,5 @@ public class Farm
     {
         this.farmhouse = farmhouse;
     }
+
 }

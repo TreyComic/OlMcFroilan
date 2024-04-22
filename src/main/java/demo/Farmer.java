@@ -7,6 +7,7 @@ public class Farmer extends Person implements Botanist
     {
         super(name);
         favoriteTractor=new Tractor();
+        System.out.println(name+" contstructed");
     }
     @Override
     public void plant(Field field,String cropType, int cropRowNumbah)
@@ -23,20 +24,21 @@ public class Farmer extends Person implements Botanist
         int plantedCount = 0;
         switch(cropType) {
             case "tomato plant":
-                for (int i = 0; i <= workingRow.length; i++)
+                for (int i = 0; i < workingRow.length; i++)
                 {
                     workingRow[i] = new TomatoPlant();
                     plantedCount++;
                 }
                 System.out.println("Planted " + plantedCount + " tomato plants.");
+                break;
             case "corn stalk":
-                for (int i = 0; i <= workingRow.length; i++)
+                for (int i = 0; i < workingRow.length; i++)
                 {
                     workingRow[i] = new CornStalk();
                     plantedCount++;
                 }
                 System.out.println(this.getName() + " planted " + plantedCount + " corn stalks.");
-
+                break;
             default:
                 System.out.println("I don't recognize that plant. Why don't I recognize it? im scared.");
         }

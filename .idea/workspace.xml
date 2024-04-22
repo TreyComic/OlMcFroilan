@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3452b80a-d1cf-401a-8aa4-ded9016f32c1" name="Changes" comment="diddled with stuff related to pilots and flying.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Croprow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Croprow.java" afterDir="false" />
+    <list default="true" id="3452b80a-d1cf-401a-8aa4-ded9016f32c1" name="Changes" comment="Construction and planting">
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Farm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/FarmHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/FarmHouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Farmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Farmer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Field.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Pilot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/PlotSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/PlotSetting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Stable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Stable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713744301139</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="settergetter">
+      <option name="closed" value="true" />
+      <created>1713807196460</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713807196460</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +249,8 @@
     <MESSAGE value="Poosh" />
     <MESSAGE value="Setters, getters, and a rough draft of the plant method" />
     <MESSAGE value="diddled with stuff related to pilots and flying." />
-    <option name="LAST_COMMIT_MESSAGE" value="diddled with stuff related to pilots and flying." />
+    <MESSAGE value="settergetter" />
+    <MESSAGE value="Construction and planting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Construction and planting" />
   </component>
 </project>

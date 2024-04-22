@@ -6,6 +6,20 @@ public class Field
     public Field(int size)
     {
         rowCrops = new Croprow[size];
+        for (int i=0;i<size;i++)
+        {
+            rowCrops[i]=new Croprow();
+        }
+        System.out.println("Field of "+size+"row of 10 crops constructed");
+    }
+    public Field(int size,int rowSize)
+    {
+        rowCrops = new Croprow[size];
+        for (int i=0;i<rowSize;i++)
+        {
+            rowCrops[i]=new Croprow(rowSize);
+        }
+        System.out.println("Field of "+size+"rows of"+rowSize+" crops constructed");
     }
     public Croprow[] getRowCrops()
     {
@@ -15,7 +29,6 @@ public class Field
     {
         return rowCrops[cropRow];
     }
-
     public void setRowCrops(Croprow[] rowCrops)
     {
         this.rowCrops = rowCrops;
