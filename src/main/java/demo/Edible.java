@@ -1,10 +1,6 @@
 package demo;
 
-public interface Edible {
-
-
-
-
-
+public interface Edible
+{
 
 }
