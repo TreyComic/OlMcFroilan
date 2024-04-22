@@ -3,6 +3,11 @@ package demo;
 public class Stable
 {
     Horse[] horses;
+    public Stable(int horseCapacity)
+    {
+        System.out.println("Stable constructed");
+        this.horses=new Horse[horseCapacity];
+    }
     public Horse[] getHorses()
     {
         return horses;
@@ -18,11 +23,6 @@ public class Stable
     public void setHorse(Horse horse,int horseLocation)
     {
         this.horses[horseLocation] = horse;
-    }
-    public Stable(int horseCapacity)
-    {
-        System.out.println("Stable contstructed");
-        this.horses=new Horse[horseCapacity];
     }
     public void fillStable(int horseFill)
     {

@@ -10,7 +10,7 @@ public class Field
         {
             rowCrops[i]=new Croprow();
         }
-        System.out.println("Field of "+size+"rows of 10 crops constructed");
+        System.out.println("Field of "+size+" rows of 10 crops constructed");
     }
     public Field(int size,int rowSize)
     {
@@ -19,7 +19,7 @@ public class Field
         {
             rowCrops[i]=new Croprow(rowSize);
         }
-        System.out.println("Field of "+size+"rows of"+rowSize+" crops constructed");
+        System.out.println("Field of "+size+" rows of "+rowSize+ " crops constructed");
     }
     public Croprow[] getRowCrops()
     {

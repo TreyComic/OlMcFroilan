@@ -7,7 +7,7 @@ public class Farmer extends Person implements Botanist
     {
         super(name);
         favoriteTractor=new Tractor();
-        System.out.println(name+" contstructed");
+        System.out.println(name+" constructed");
     }
     @Override
     public void plant(Field field,String cropType, int cropRowNumbah)
@@ -63,8 +63,10 @@ public class Farmer extends Person implements Botanist
         {
             case "tomato plant":
                     workingRow[cropLocation] = new TomatoPlant();
+                    break;
             case "corn stalk":
                     workingRow[cropLocation] = new CornStalk();
+                    break;
             default:
                 System.out.println("I don't recognize that plant. Why don't I recognize it? im scared.");
         }

@@ -17,6 +17,6 @@ public class CornStalk extends Crop{
     }
     public String toString()
     {
-        return "cornstalk";
+        return "corn stalk";
     }
 }

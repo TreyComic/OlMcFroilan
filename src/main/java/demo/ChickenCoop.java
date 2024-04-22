@@ -43,6 +43,6 @@ public class ChickenCoop
             chickens[i]=new Chicken();
             counter++;
         }
-        System.out.println("Stable filled with "+counter+" horses.");
+        System.out.println("Coop filled with "+counter+" chickens.");
     }
 }
