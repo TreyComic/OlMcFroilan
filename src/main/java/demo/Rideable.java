@@ -1,6 +1,8 @@
 package demo;
 
-public interface Rideable
-{
+public interface Rideable{
+
+
 
 }
+
