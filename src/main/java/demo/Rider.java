@@ -2,7 +2,7 @@ package demo;
 
 public interface Rider
 {
-    public void mount();
-    public void disMount();
+    public void mount(Rideable rideable);
+    public void dismount();
 
 }

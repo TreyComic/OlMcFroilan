@@ -7,4 +7,12 @@ public class FarmHouse
     {
         people = new Person[capacity];
     }
+    public Person[] getPeople()
+    {
+        return people;
+    }
+    public void setPeople(Person[] people)
+    {
+        this.people = people;
+    }
 }
