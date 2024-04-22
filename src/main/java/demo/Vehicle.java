@@ -1,6 +1,6 @@
 package demo;
 
-public interface Vehicle
+public interface Vehicle extends Rideable, NoiseMaker
 {
 
 }

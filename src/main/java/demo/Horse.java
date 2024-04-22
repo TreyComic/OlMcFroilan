@@ -25,11 +25,10 @@ public class Horse extends Animal implements Rideable{
     }
 
 
-
-
+    @Override
+    public void makeNoise(){
+        System.out.println("The Horse goes WeeSnaw");
+    }
 }
-
-
-
 
 

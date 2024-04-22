@@ -28,9 +28,11 @@ public class Chicken extends Animal implements Produce{
 
     public boolean getFert(){
         return isFertilized;
-        }
-
-
+    }
+  
+    public void setFertilized(boolean fertilized) {
+        isFertilized = fertilized;
+    }
 
     public Edible yield()
     {
