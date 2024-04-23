@@ -2,30 +2,23 @@ package demo;
 
 public class Pilot extends Person
 {
-    public Pilot(String name) {
+    private Cropduster personalPlane;
+    public Pilot(String name)
+    {
         super(name);
+        personalPlane=new Cropduster();
     }
-
     @Override
-    public void eat(Edible edible)
+    public void mount(Rideable riddenObject)
     {
-
+        super.mount(riddenObject);
     }
-
-    @Override
-    public void makeNoise()
-    {
-
-    }
-
-    @Override
     public void mount()
     {
-
+        super.setMount(personalPlane);
     }
-
-    @Override
-    public void disMount() {
-
+    public void mount(Aircraft airplane)
+    {
+        super.setMount(airplane);
     }
 }

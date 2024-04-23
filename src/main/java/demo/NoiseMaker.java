@@ -1,6 +1,11 @@
 package demo;
 
-public interface NoiseMaker {
-    public void makeNoise();
 
+public interface NoiseMaker{
+
+    public void makeNoise();
 }
+
+
+
+
