@@ -3,6 +3,7 @@ package demo;
 public class Farm
 {
     private Field field;
+
     private Stable[] stables;
     private ChickenCoop[] coopsChicken;
     private FarmHouse farmhouse;

@@ -20,6 +20,8 @@ public class Horse extends Animal implements Rideable
     {
         System.out.println("The Horse goes WeeSnaw");
     }
+
 }
+
 
 
