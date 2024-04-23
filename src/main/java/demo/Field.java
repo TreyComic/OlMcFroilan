@@ -1,7 +1,6 @@
 package demo;
 
-public class Field
-{
+public class Field {
     private Croprow[] rowCrops;
     public Field(int size)
     {

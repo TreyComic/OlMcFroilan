@@ -1,7 +1,6 @@
 package demo;
 
-public interface FarmVehicle extends Vehicle
-{
+public interface FarmVehicle extends Vehicle {
     public void operate(Field field);
 
     @Override

@@ -1,7 +1,6 @@
 package demo;
 
-public class FarmHouse
-{
+public class FarmHouse {
     Person[] people;
     FarmHouse(int capacity)
     {
