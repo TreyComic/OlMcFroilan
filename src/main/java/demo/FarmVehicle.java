@@ -7,7 +7,5 @@ public interface FarmVehicle extends Vehicle {
     default void makeNoise() {
 
     }
-    public default Crop[][] harvest(Crop[][] field){
-
-    }
+    public default Crop[][] harvest(Crop[][] field){return null;}
 }

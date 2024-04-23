@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e383b61-5267-49ed-9ad2-4edba59e16b2" name="Changes" comment="Poosh">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4e383b61-5267-49ed-9ad2-4edba59e16b2" name="Changes" comment="Salvation">
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Aircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Aircraft.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Cropduster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Cropduster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/FarmVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/FarmVehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Horse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Stable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Stable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Tractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Tractor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +58,20 @@
       <option name="project" value="LOCAL" />
       <updated>1713832896426</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Salvation">
+      <option name="closed" value="true" />
+      <created>1713833488722</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713833488722</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Poosh" />
-    <option name="LAST_COMMIT_MESSAGE" value="Poosh" />
+    <MESSAGE value="Salvation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Salvation" />
   </component>
 </project>
