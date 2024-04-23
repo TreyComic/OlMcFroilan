@@ -4,9 +4,8 @@ public class Horse extends Animal implements Rideable
 {
     Rider currentRider;
     private int horseID;
-    static int uniqueID=0;
-    public Horse()
-    {
+    static int uniqueID = 0;
+    public Horse() {
         horseID=uniqueID;
         uniqueID++;
     }
@@ -20,4 +19,4 @@ public class Horse extends Animal implements Rideable
         System.out.println("The Horse goes WeeSnaw");
     }
     }
-}
+

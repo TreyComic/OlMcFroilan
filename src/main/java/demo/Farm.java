@@ -1,7 +1,6 @@
 package demo;
 
-public class Farm
-{
+public class Farm {
     private Field[] fields;
     private Stable[] stables;
     private ChickenCoop[] coopsChicken;
