@@ -20,12 +20,12 @@ public class Person implements NoiseMaker,Eater,Rider
     @Override
     public void mount(Rideable riddenObject)
     {
-        if (riddenObject.getClass()!=Cropduster.class)
-        {
+       // if (riddenObject.getClass()!=Cropduster.getClass())
+        // {
             this.riddenObject=riddenObject;
-        }
-        else
-            System.out.println(name+ " doesn't know how to fly an Aircraft!");
+            //}
+        // else
+        //    System.out.println(name+ " doesn't know how to fly an Aircraft!");
     }
     protected void setMount(Rideable setMount)
     {

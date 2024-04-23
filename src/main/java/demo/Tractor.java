@@ -1,6 +1,6 @@
 package demo;
 
-public class Tractor implements FarmVehicle, Vehicle {
+public class Tractor implements FarmVehicle, Vehicle, Rideable {
 
     @Override
     public void operate(Field field) {
@@ -18,7 +18,6 @@ public class Tractor implements FarmVehicle, Vehicle {
         int rows = field.length;
         int col = field[0].length;
         Crop[][] cropsHarvested = new Crop[rows][col];
-        Crop[rows][col];
         for (int i = 0; i < rows; i++) {
             for (int x = 0; x < col; x++) {
                 Crop currentCrop = field[i][x];

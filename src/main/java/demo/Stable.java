@@ -5,7 +5,7 @@ public class Stable
     Horse[] horses;
     public Stable(int horseCapacity)
     {
-        System.out.println("Empty table with room for "+horseCapacity+" constructed");
+        System.out.println("Empty stable with room for "+horseCapacity+" constructed");
         this.horses=new Horse[horseCapacity];
     }
     public Stable(int horseCapacity,int emptyStables)

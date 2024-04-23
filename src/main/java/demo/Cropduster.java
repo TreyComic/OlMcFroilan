@@ -1,5 +1,5 @@
 package demo;
-public class Cropduster implements FarmVehicle, Aircraft{
+public class Cropduster implements FarmVehicle, Aircraft,Rideable{
     public void fly()
     {
         System.out.println("Cropduster flying");
@@ -23,5 +23,10 @@ public class Cropduster implements FarmVehicle, Aircraft{
                 System.out.println("Crop is fertilized");
             }
         }
+    }
+    public static void main(String[] args)
+    {
+        Cropduster croppy = new Cropduster();
+        System.out.println(croppy.getClass());
     }
 }
